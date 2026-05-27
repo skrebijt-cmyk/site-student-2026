@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid #3498db;
+    padding: 20px;
+}
+
+.item {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+/* Стилі для меню */
+.menu {
+    display: flex;
+    justify-content: space-around; /* Розподіляє посилання рівномірно */
+    background-color: #34495e;    /* Колір фону меню */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.menu a {
+    color: white;                 /* Колір тексту посилань */
+    text-decoration: none;        /* Прибирає підкреслення */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Ефект при наведенні мишкою (додатково) */
+.menu a:hover {
+    color: #f1c40f;               /* Жовтий колір при наведенні */
+    text-decoration: underline;
+}
