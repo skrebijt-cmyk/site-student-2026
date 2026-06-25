@@ -1,0 +1,54 @@
+/* 1. Загальний вигляд сторінки */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3; /* Легкий сіро-блакитний фон */
+    color: #444;
+}
+
+/* 2. Шапка: зробимо її градієнтом, як небо чи море */
+header {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* 3. Контейнер з контентом */
+main {
+    max-width: 800px;
+    margin: -30px auto 20px auto; /* Трохи накладаємо на шапку для ефекту */
+    padding: 30px;
+    background: white;
+    border-radius: 15px; /* Заокруглені кути */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Легка тінь для об'єму */
+}
+
+/* 4. Заголовки */
+h2 {
+    color: #0072ff;
+    border-left: 5px solid #00c6ff; /* Кольорова смужка зліва */
+    padding-left: 15px;
+}
+
+/* 5. Список послуг */
+ul {
+    list-style-type: none; /* Прибираємо стандартні крапки */
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #0072ff;
+}
+
+/* 6. Підвал */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
